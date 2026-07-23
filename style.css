@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    height: 100vh;
+    background-color: #2F578A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ button {
+    background-color: #121358;
+    color: white;
+ }
+
+ input, div {
+    background-color: #232F72;
+ }
+
+ input {
+    width: 80vmin;
+    height: 25vmin;
+    border-radius: 0.6rem;
+    border: none;
+    border: 0.2rem solid #36ADA3;
+    text-align: center;
+    line-height: 25vmin;
+    font-size: 10vmin;
+    caret-color: #fff;
+    color: white;
+ }
+
+ input:focus {
+    outline: none;
+ }
+
+ div {
+    display: inline-block;
+    padding: 1.7rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    border: 0.4rem solid #36ADA3;
+    display: flex;
+ }
+
+ p {
+    flex-shrink: 1;
+ }
+
+ .hide {
+    display: none;
+ }
+
+ #starter-button, #reset-button {
+    font-size: 1.9rem;
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    border: 0.2rem solid #36ADA3;
+ }
+
+ .change-flex-direction {
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+
+ .converter-button-class {
+    font-size: 1.9rem;
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    border: 0.2rem solid #36ADA3;
+ }
+
+ #heading {
+    color: #121358;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+ }
